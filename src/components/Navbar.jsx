@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import { Montserrat_Alternates } from "next/font/google";
 import Image from "next/image";
 

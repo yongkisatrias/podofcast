@@ -18,6 +18,7 @@ module.exports = {
       borderWidth: {
         custom1: "1px",
       },
+      objectPosition: {},
     },
   },
   plugins: [],

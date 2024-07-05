@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Blog from "@/components/Blog";
 import Content from "@/components/Content";
+import CTA from "@/components/CTA";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -18,6 +19,7 @@ export default function Home() {
       <Content />
       <Pricing />
       <Blog />
+      <CTA />
     </>
   );
 }

@@ -45,7 +45,7 @@ export default function Blog() {
                 </div>
                 <div>
                   <p className="font-bold text-sm text-[#4D4D4D]">
-                    Sep 12, 2021
+                    Sep 14, 2021
                   </p>
                 </div>
               </div>

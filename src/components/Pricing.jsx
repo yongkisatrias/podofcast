@@ -5,7 +5,7 @@ const monserat = Montserrat_Alternates({
   weight: ["400", "700"],
 });
 
-export default function About() {
+export default function Pricing() {
   return (
     <div className={`${monserat.className} bg-[#FFF]`}>
       <div className="w-[1440px] mx-auto py-28">

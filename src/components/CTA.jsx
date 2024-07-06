@@ -9,7 +9,7 @@ const monserat = Montserrat_Alternates({
 export default function CTA() {
   return (
     <div className={`${monserat.className} bg-[#EDF3F7]`}>
-      <div className="w-[1440px] h-[816px] mx-auto py-28">
+      <div className="w-[1440px] h-[845px] mx-auto py-28">
         <div className="flex flex-col gap-y-8">
           {/* SHAPE ACCESSORIES */}
           <div className="relative">

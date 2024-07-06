@@ -11,6 +11,14 @@ export default function CTA() {
     <div className={`${monserat.className} bg-[#EDF3F7]`}>
       <div className="w-[1440px] h-[816px] mx-auto py-28">
         <div className="flex flex-col gap-y-8">
+          {/* SHAPE ACCESSORIES */}
+          <div className="relative">
+            <div className="absolute inset-x-0 -top-48">
+              <div className="flex justify-center">
+                <img src="/Symbols/scribble.svg" alt="" className="" />
+              </div>
+            </div>
+          </div>
           {/* IMAGE */}
           <div className="relative">
             <img
@@ -21,7 +29,7 @@ export default function CTA() {
           </div>
           <div className="relative">
             <img
-              src="Cover/home.png"
+              src="Cover/Home.png"
               alt="play"
               className="absolute bottom-0 left-0 top-72 w-[430px] h-[380px]"
             />

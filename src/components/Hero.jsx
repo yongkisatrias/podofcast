@@ -21,7 +21,7 @@ export default function Hero() {
           <img
             src="/Symbols/Group 48095792.svg"
             alt="logo podcast"
-            className={"absolute right-0 w-[150px] h-[150px]"}
+            className={"absolute right-0 w-[200px] h-[200px]"}
           ></img>
         </div>
         {/* HERO SECTION */}

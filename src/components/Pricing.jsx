@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Montserrat_Alternates } from "next/font/google";
 
 const monserat = Montserrat_Alternates({
@@ -8,7 +9,13 @@ const monserat = Montserrat_Alternates({
 export default function Pricing() {
   return (
     <div className={`${monserat.className} bg-[#FFF]`}>
-      <div className="w-[1440px] mx-auto py-28">
+      <div className="w-[1440px] mx-auto py-28 relative mb-5">
+        {/* SHAPE ACCESSORIES */}
+        <div className="absolute inset-x-0 -top-20">
+          <div className="flex justify-center">
+            <img src="/Symbols/Scribble Black.svg" alt="" />
+          </div>
+        </div>
         {/* TITTLE */}
         <div>
           <p className="font-bold text-5xl text-center">Become our sponsor</p>

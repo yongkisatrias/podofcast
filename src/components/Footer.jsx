@@ -43,8 +43,8 @@ export default function Footer() {
             </p>
             <div className="flex gap-5 mt-5">
               <img src="Symbols/Google Podcast full.svg" alt="logo" />
-              <img src="Symbols/spotify full.svg" alt="logo" />
-              <img src="Symbols/youtube full.svg" alt="logo" />
+              <img src="Symbols/Spotify full.svg" alt="logo" />
+              <img src="Symbols/Youtube full.svg" alt="logo" />
             </div>
             <p className="font-medium text-base text-[#4D4D4D] mt-10">
               App available on:

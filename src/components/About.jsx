@@ -9,9 +9,15 @@ const monserat = Montserrat_Alternates({
 export default function About() {
   return (
     <div className={`${monserat.className} bg-[#FFF]`}>
-      <div className="w-[1440px] mx-auto py-28">
+      <div className="w-[1440px] mx-auto py-28 mb-5 relative">
+        {/* SHAPE ACCESSORIES */}
+        <div className="absolute inset-x-0 -top-20">
+          <div className="flex justify-center">
+            <img src="/Symbols/scribble.svg" alt="" className="" />
+          </div>
+        </div>
         {/* HERO TEXT */}
-        <div className="text-center">
+        <div className="text-center mt-5">
           <p className="font-bold text-5xl">Talk. Listen. Get inspired</p>
           <p className="font-bold text-5xl mt-5">by every minute of it.</p>
         </div>
@@ -48,7 +54,7 @@ export default function About() {
         <div>
           <div className="bg-[#F7EDE8] h-[366px] flex flex-col justify-center mt-20">
             <div className="">
-              <p className="font-bold text-9xl text-[#CD4631] text-center">“</p>
+              <p className="font-bold text-8xl text-[#CD4631] text-center">“</p>
               <p className="font-bold text-4xl text-center">
                 One of the best daily podcasts that
               </p>

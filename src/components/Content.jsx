@@ -6,12 +6,18 @@ const monserat = Montserrat_Alternates({
   weight: ["400", "700"],
 });
 
-export default function Hero() {
+export default function Content() {
   return (
     <div className={`${monserat.className} bg-[#F7EDE8]`}>
-      <div className="w-[1440px] mx-auto py-28">
+      <div className="w-[1440px] mx-auto py-28 relative mb-5">
+        {/* SHAPE ACCESSORIES */}
+        <div className="absolute inset-x-0 -top-20">
+          <div className="flex justify-center">
+            <img src="/Symbols/Scribble Black.svg" alt="" />
+          </div>
+        </div>
         {/* TITTLE */}
-        <div>
+        <div className="mt-5">
           <p className="font-bold text-5xl text-center">Recent Episodes</p>
           <p className="font-medium text-2xl text-[#4D4D4D] text-center mt-3">
             Available on your favorite platform

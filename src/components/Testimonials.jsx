@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import { Montserrat_Alternates } from "next/font/google";
-import Image from "next/image";
 
 const monserat = Montserrat_Alternates({
   subsets: ["latin"],
@@ -10,10 +9,16 @@ const monserat = Montserrat_Alternates({
 export default function Testimonials() {
   return (
     <div className={`${monserat.className} bg-[#EDF3F7]`}>
-      <div className="w-[1440px] mx-auto py-28">
+      <div className="w-[1440px] mx-auto py-28 relative">
+        {/* SHAPE ACCESSORIES */}
+        <div className="absolute inset-x-0 -top-20">
+          <div className="flex justify-center">
+            <img src="/Symbols/Scribble Black.svg" alt="" />
+          </div>
+        </div>
         {/* TITTLE */}
         <div>
-          <p className="font-bold text-5xl text-center mt-5">
+          <p className="font-bold text-5xl text-center mt-10">
             What our listeners say
           </p>
           <p className="font-medium text-3xl text-[#4D4D4D] text-center mt-3">

@@ -9,9 +9,15 @@ const monserat = Montserrat_Alternates({
 export default function Blog() {
   return (
     <div className={`${monserat.className} bg-[#FFF]`}>
-      <div className="w-[1440px] mx-auto py-28">
+      <div className="w-[1440px] mx-auto py-28 relative">
+        {/* SHAPE ACCESSORIES */}
+        <div className="absolute inset-x-0 -top-20">
+          <div className="flex justify-center">
+            <img src="/Symbols/Scribble Black.svg" alt="" />
+          </div>
+        </div>
         {/* TITTLE */}
-        <div>
+        <div className="mt-5">
           <p className="font-bold text-5xl text-center">Article and News</p>
           <p className="font-medium text-2xl text-[#4D4D4D] text-center mt-3">
             News, tips, tricks and more

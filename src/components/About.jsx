@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import { Montserrat_Alternates } from "next/font/google";
-import Image from "next/image";
 
 const monserat = Montserrat_Alternates({
   subsets: ["latin"],
@@ -20,11 +19,10 @@ export default function About() {
         <div className="flex justify-center gap-20 pt-20">
           <div className="w-[472px] h-[367px]">
             <div className="flex justify-center">
-              <Image
+              <img
                 src="/Vector/Illustration 01.svg"
-                width={275}
-                height={275}
                 alt="Illustration 1"
+                className="w-[275px] h-[275px]"
               />
             </div>
             <p className="text-center text-base font-medium pt-5">
@@ -34,11 +32,10 @@ export default function About() {
           </div>
           <div className="w-[472px] h-[367px]">
             <div className="flex justify-center">
-              <Image
+              <img
                 src="/Vector/Illustration 02.svg"
-                width={275}
-                height={275}
                 alt="Ilustration 2"
+                className="w-[275px] h-[275px]"
               />
             </div>
             <p className="text-center text-base font-medium pt-5">
@@ -50,7 +47,8 @@ export default function About() {
         {/* Section 2 */}
         <div>
           <div className="bg-[#F7EDE8] h-[366px] flex flex-col justify-center mt-20">
-            <div className="mt-28">
+            <div className="">
+              <p className="font-bold text-9xl text-[#CD4631] text-center">“</p>
               <p className="font-bold text-4xl text-center">
                 One of the best daily podcasts that
               </p>
@@ -58,22 +56,20 @@ export default function About() {
                 covers every topic on Spotify.
               </p>
             </div>
-            <div className="flex justify-center mt-14 gap-5">
+            <div className="flex justify-center mt-10 gap-5">
               <div className="flex gap-3 items-center">
-                <Image
+                <img
                   src="User_Profile/avatar.svg"
                   alt="Avatar"
-                  width={48}
-                  height={48}
+                  className="w-[48px] h-[48px]"
                 />
                 <p className="text-sm font-medium">John Smith,</p>
               </div>
               <div className="flex gap-2 items-center">
-                <Image
+                <img
                   src="Symbols/Vector.svg"
                   alt="Spotify"
-                  width={16}
-                  height={16}
+                  className="w-[16px] h-[16px]"
                 />
                 <p className="text-sm font-bold">Social Community Manager</p>
               </div>

@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import { Montserrat_Alternates } from "next/font/google";
-import Image from "next/image";
 
 const monserat = Montserrat_Alternates({
   subsets: ["latin"],
@@ -11,7 +11,11 @@ export default function Navbar() {
     <div className={`${monserat.className} bg-[#F7EDE8] py-5`}>
       <div className="w-[1440px] mx-auto px-20 flex justify-between items-center">
         <div className="flex justify-between gap-28 items-center font-bold">
-          <Image src="/logo.svg" alt="logo podcast" width={74} height={74} />
+          <img
+            src="/logo.svg"
+            alt="logo podcast"
+            className="w-[74px] h-[74px]"
+          />
           <div>
             <a href="#">Episodes</a>
           </div>
@@ -20,11 +24,10 @@ export default function Navbar() {
           </div>
           <div className="flex gap-2">
             <a href="#">More</a>
-            <Image
+            <img
               src="/Symbols/Arrow - Down.svg"
               alt="arrow down"
-              width={16}
-              height={16}
+              className="h-[16px] w-[16px]"
             />
           </div>
         </div>

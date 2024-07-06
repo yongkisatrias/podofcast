@@ -13,20 +13,16 @@ export default function Hero() {
       <div className="w-[1440px] mx-auto py-28">
         {/* SHAPE ACCESSORIES */}
         <div className="relative flex items-center top-44">
-          <Image
+          <img
             src="/Symbols/Hero Shape Swirl.svg"
             alt="logo podcast"
-            width={300}
-            height={300}
-            className={"absolute left-0"}
-          ></Image>
-          <Image
+            className={"absolute left-0 w-[450px] h-[450px]"}
+          ></img>
+          <img
             src="/Symbols/Group 48095792.svg"
             alt="logo podcast"
-            width={150}
-            height={150}
-            className={"absolute right-0"}
-          ></Image>
+            className={"absolute right-0 w-[150px] h-[150px]"}
+          ></img>
         </div>
         {/* HERO SECTION */}
         <div>
@@ -58,6 +54,7 @@ export default function Hero() {
                   src="/Cover/8e8cb5542db4ebdb54669faa2300a916.jpeg"
                   alt="cover podcast"
                   className="h-[373px] w-[373px] object-cover rounded-xl grayscale"
+                  loading="lazy"
                 />
                 <div className="absolute inset-x-0 bottom-0">
                   <p className="text-[#81ADC8] font-bold text-4xl pl-5 pb-5 whitespace-nowrap overflow-hidden text-ellipsis">
@@ -89,6 +86,7 @@ export default function Hero() {
                   src="/Cover/1174a2e6e65a9d4f976d3094895b85a0.jpeg"
                   alt="cover podcast"
                   className="h-[373px] w-[373px] object-cover rounded-xl grayscale"
+                  loading="lazy"
                 />
                 <div className="absolute inset-x-0 bottom-0">
                   <p className="text-[#81ADC8] font-bold text-4xl pl-5 pb-5 whitespace-nowrap overflow-hidden text-ellipsis">
@@ -120,6 +118,7 @@ export default function Hero() {
                   src="/Cover/e42201efbc673621436bbaa103d51b56.jpeg"
                   alt="cover podcast"
                   className="h-[373px] w-[373px] object-cover rounded-xl grayscale"
+                  loading="lazy"
                 />
                 <div className="absolute inset-x-0 bottom-0">
                   <p className="text-[#81ADC8] font-bold text-4xl pl-5 pb-5 whitespace-nowrap overflow-hidden text-ellipsis">
@@ -151,6 +150,7 @@ export default function Hero() {
                   src="/Cover/423750a41eadef81f757a9e7793d9654.jpeg"
                   alt="cover podcast"
                   className="h-[373px] w-[373px] object-cover rounded-xl grayscale"
+                  loading="lazy"
                 />
                 <div className="absolute inset-x-0 bottom-0">
                   <p className="text-[#81ADC8] font-bold text-4xl pl-5 pb-5 whitespace-nowrap overflow-hidden text-ellipsis">
@@ -182,6 +182,7 @@ export default function Hero() {
                   src="/Cover/eca5b83a30fd652f7d2a93b7722d6242.jpeg"
                   alt="cover podcast"
                   className="h-[373px] w-[373px] object-cover rounded-xl grayscale"
+                  loading="lazy"
                 />
                 <div className="absolute inset-x-0 bottom-0">
                   <p className="text-[#81ADC8] font-bold text-4xl pl-5 pb-5 whitespace-nowrap overflow-hidden text-ellipsis">
